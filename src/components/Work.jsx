@@ -3,10 +3,10 @@ import Calculator from '../assets/Calculator.png';
 
 const Work = () => {
   return (
-    <div name='work' className='w-full md:h-screen bg-[#a16f24] text-[#d9ab60]'>
+    <div name='work' className='w-full md:h-screen bg-[#160F19] text-[#d9ab60]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-[#d9ab60] border-[#fff]'>Work</p>
+                <p className='text-4xl font-bold inline border-b-4 text-[#d9ab60] border-[#6A322C]'>Work</p>
                 <p className='py-6'>// Check out my recent work</p>
             </div>
             {/*  Container */}
@@ -15,7 +15,7 @@ const Work = () => {
                 className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'
             >
                 {/*Grid Item */}
-                <div style={{backgroundImage: `url(${Calculator})`}} className='shadow-lg shadow-[#795c38] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${Calculator})`}} className='shadow-lg shadow-[#09060a] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>

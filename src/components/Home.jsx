@@ -3,14 +3,14 @@ import { HiArrowNarrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
-    <div name='home'className='w-full h-screen bg-[#a16f24]'>
+    <div name='home'className='w-full h-screen bg-[#160F19]'>
         {/*container*/}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-[#fff]'>Hi, my name is</p>
-            <h1 className='text-4xl sm:text-6xl font-bold text-[#503a17]'>
+            <h1 className='text-4xl sm:text-6xl font-bold text-[#E9AF73]'>
               Temoso Mojapelo
             </h1>
-            <h2 className='text-4xl sm:text-6xl font-bold text-[#d9ab60]'>
+            <h2 className='text-4xl sm:text-6xl font-bold text-[#A85E3F]'>
               I'm a Full Stack Web Developer.
             </h2>
             <p className='text-[#e2e2e2] py-4 max-w-[700px]'>
@@ -20,7 +20,7 @@ const Home = () => {
               and backend development.
             </p>
             <div>
-              <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#503a17] hover:border-[#503a17]'>View Work
+              <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6A322C] hover:border-[#6A322C]'>View Work
                 <span className='group-hover:rotate-90 duration-300'>
                   <HiArrowNarrowRight className='ml-3 ' />
                 </span>
