@@ -2,8 +2,9 @@ import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaBitbucket } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/TItleNEW3.1.png';
+import Logo from '../assets/BTMLogo.png';
 import {Link} from 'react-scroll';
+import CV from '../assets/Grey Clean CV Resume Photo.png';
 const Navbar = () => {
     const [nav, setNav] =useState(false)
     const handleClick = () => setNav(!nav)
@@ -11,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#160F19] text-gray-300">
         <div>
-            <img src={Logo} alt="Logo" style={{width: '70px'}} />
+            <img src={Logo} alt="Logo" style={{width: '80px'}} />
         </div>
 
         {/* Menu */}
@@ -144,30 +145,26 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
            <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 '> 
-                    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+                    <a className='flex justify-between items-center w-full text-grey-300' href="https://www.linkedin.com/in/temoso-mojapelo-807893240/">
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] '> 
-                    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+                    <a className='flex justify-between items-center w-full text-grey-300' href="https://github.com/TEMOSO-MOJAPELO">
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800 '> 
-                    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+                    <a className='flex justify-between items-center w-full text-grey-300'>
                         BitBucket <FaBitbucket size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9a2121] '> 
-                    <a className='flex justify-between items-center w-full text-grey-300' href="/">
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1c6e44] '> 
+                    <a className='flex justify-between items-center w-full text-grey-300' href="https://www.canva.com/design/DAFOKhYldPE/XKsg2z_wXQZBKFSYkEO7oA/edit?utm_content=DAFOKhYldPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
-                </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1c6e44] '> 
-                    <a className='flex justify-between items-center w-full text-grey-300' href="/">
-                        Email <HiOutlineMail size={30}/>
-                    </a>
-                </li>
+                </li> 
+
            </ul>
         </div>
     </div>

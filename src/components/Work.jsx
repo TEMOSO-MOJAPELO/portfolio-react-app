@@ -7,7 +7,7 @@ const Work = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#d9ab60] border-[#6A322C]'>Work</p>
-                <p className='py-6'>// Check out my recent work</p>
+                <p className='py-6'>Check out my recent projects. More projects coming soon.</p>
             </div>
             {/*  Container */}
             <div 
@@ -25,10 +25,10 @@ const Work = () => {
                         <div className='pt-8 text-center'>
                             <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#d9ab60] font-bold text-lg'>
-                                    Demo
+                                    View
                                 </button>
                             </a>
-                            <a href="/">
+                            <a href="https://github.com/TEMOSO-MOJAPELO/Calculator.git">
                                 <button className='text-center+ rounded-lg px-4 py-3 m-2 bg-white text-[#d9ab60] font-bold text-lg'>
                                     Code
                                 </button>
