@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaBitbucket } from "react-icons/fa";
-import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/BTMLogo.png';
 import {Link} from 'react-scroll';
-import CV from '../assets/Grey Clean CV Resume Photo.png';
+
 const Navbar = () => {
     const [nav, setNav] =useState(false)
     const handleClick = () => setNav(!nav)
@@ -82,7 +81,7 @@ const Navbar = () => {
         </div>
         {/* Mobile menu */}
         
-            <ul className={!nav ? 'hidden': 'absolute top-0 left w-full h-screen bg-[#a16f24] flex flex-col justify-center items-center'}>
+            <ul className={!nav ? 'hidden': 'absolute top-0 left w-full h-screen bg-[#160F19] flex flex-col justify-center items-center'}>
                 <li  className="py-6 text-4xl">
                 <Link 
                      onClick={handleClick}
@@ -160,7 +159,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1c6e44] '> 
-                    <a className='flex justify-between items-center w-full text-grey-300' href="https://www.canva.com/design/DAFOKhYldPE/XKsg2z_wXQZBKFSYkEO7oA/edit?utm_content=DAFOKhYldPE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+                    <a className='flex justify-between items-center w-full text-grey-300' href="https://www.canva.com/design/DAFTht7O05I/FYVPeRlSdr21YxHt7KH5VQ/view?utm_content=DAFTht7O05I&utm_campaign=designshare&utm_medium=link&utm_source=editor">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li> 
