@@ -19,7 +19,7 @@ const Home = () => {
               I'm a Full Stack Web Developer.
             </h2>
             <p className='text-[#e2e2e2] py-4 max-w-[700px]'>
-              I am a full stack developer, I specialize in building web applications 
+              I am a full stack developer and UI/UX Designer, I specialize in building web applications 
               using MongoDB, Express.js, React.js, and Node.js. I'm constantly absorbing 
               new information and techniques to broaden my understanding of both frontend 
               and backend development.
