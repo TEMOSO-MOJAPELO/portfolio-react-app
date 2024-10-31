@@ -26,17 +26,17 @@ const Home = () => {
             </p>
             <div>
             <Link 
-                     onClick={handleClick}
-                     to="work" 
-                     smooth={true} 
-                     duration={500} 
+                     onClick = {handleClick}
+                     to = "work" 
+                     smooth = {true} 
+                     duration = {500} 
                      
-                 >
-              <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6A322C] hover:border-[#6A322C]'>
+            >
+              <button className = 'text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#6A322C] hover:border-[#6A322C]'>
               
                 View Work
-                <span className='group-hover:rotate-90 duration-300'>
-                  <HiArrowNarrowRight className='ml-3 ' />
+                <span className = 'group-hover:rotate-90 duration-300'>
+                  <HiArrowNarrowRight className = 'ml-3 ' />
                 </span>
               </button>
               </Link>
